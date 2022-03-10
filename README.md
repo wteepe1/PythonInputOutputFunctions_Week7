@@ -1,5 +1,20 @@
 # Advancing with Python
 
+## A note about "copying objects"
+
+- Try this:
+    - `firstNum = 2`
+    - `secondNum = firstNum`
+    - `firstNum = 5`
+    - `firstNum`
+    - `secondNum`
+- Now try this:
+    - `firstList = [1,2,3]`
+    - `secondList = firstList`
+    - `firstList.extend([4,5,6])`
+    - `firstList`
+    - `secondList`
+
 ## Importing libraries and drawing random numbers
 
 - Sometimes it will be helpful to use functionality that's not part of the core python functionality.
