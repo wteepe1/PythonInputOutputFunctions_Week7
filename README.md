@@ -16,14 +16,15 @@ Then close the browser window with your Terminal, and open a new one. Now open u
     - `firstNum = 2`
     - `secondNum = firstNum`
     - `firstNum = 5`
-    - `firstNum`
-    - `secondNum`
+    - `firstNum` now = 5
+    - `secondNum` still = 2
+    -   they still remain independent of eachother
 - Now try this:
     - `firstList = [1,2,3]`
-    - `secondList = firstList`
+    - `secondList = firstList`this means I want the computer to pull firstList when I input secondList
     - `firstList.extend([4,5,6])`
-    - `firstList`
-    - `secondList`
+    - `firstList`= [1,2,3,4,5,6]
+    - `secondList`= [1,2,3,4,5,6]
 
 ## Importing libraries and drawing random numbers
 
