@@ -35,7 +35,7 @@ Then close the browser window with your Terminal, and open a new one. Now open u
 - Once it's loaded, you'll need to precede any of its functions with `random.` in order to use them.
 - Try this:
     - `import random`
-    - `random.random()` - Do this a few times
+    - `random.random()`-Do this a few times (first random tells python what library to look in and second one is the                             command)
     - `random.uniform(0,1)` - Do this a few times
     - `random.uniform(0,5)` - Do this a few times
     - `random.choice([5,6,7,8])` - Do this a few times
