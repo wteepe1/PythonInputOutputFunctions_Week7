@@ -1,5 +1,15 @@
 # Advancing with Python
 
+## Updating to Python 3
+
+To ensure that we're all using the same, recent version of Python, please execute these commands after opening up a Terminal on smic
+
+```
+echo "module load python/3.6.2-anaconda-tensorflow" >> ~/.modules
+```
+
+Then close the browser window with your Terminal, and open a new one. Now open up the Python interpreter using the `python` command. At the top, it should start with "Python 3.6.2 |Anaconda, Inc.|".
+
 ## A note about "copying objects"
 
 - Try this:
