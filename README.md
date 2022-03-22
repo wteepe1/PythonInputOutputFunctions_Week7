@@ -88,6 +88,7 @@ Then close the browser window with your Terminal, and open a new one. Now open u
 - Any command-line arguments we pass to a script can then be accessed using the `sys.argv` variable.
     - `print(sys.argv[2])`
     - Which argument is printed when you run the line above? Does that make sense with the 0-based indexing in Python?
+    -   Argument 3 is printed because it reads the file name as 0
 - We can also loop through all command-line arguments:
         for arg in sys.argv:
             print(arg)
